@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "name": "gatsby-starter-lumen",
+  "version": "1.0.0",
+  "name": "benjamincooper.me",
   "description": "Simple starter for Gatsby",
   "main": "n/a",
   "scripts": {
@@ -12,7 +12,7 @@
     "copy": "npm run copy:files",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+    "deploy": "gatsby build --prefix-links && cp CNAME public && gh-pages -d public"
   },
   "keywords": [
     "gatsby",
