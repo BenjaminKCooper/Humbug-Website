@@ -1,19 +1,25 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { RouteHandler, Link } from 'react-router'
+import { prefixLink } from 'gatsby-helpers'
+
 // import '../../static/css/base.css'
 class NavBar extends Component {
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
 
     // init component state here
-    this.state = {};
+    this.state = {}
   }
 
-  render() {
+  render () {
     return (
-      <div id="navBar">NavBar</div>
+      <div id="navBar">
+        <Link to={prefixLink('/')}><div className="navBar-item">Home</div></Link>
+        <Link to={prefixLink('/ContactMe/')}><div className="navBar-item">Contact Me</div></Link>
+      </div>
 
-    );
+    )
   }
 }
 
-export default NavBar;
+export default NavBar

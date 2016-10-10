@@ -8,6 +8,8 @@ import access from 'safe-access'
 import { config } from 'config'
 // import SitePost from '../components/SitePost'
 import '../static/css/base.css'
+import NavBar from '../components/NavBar'
+
 
 class SiteIndex extends React.Component {
   render () {
@@ -25,7 +27,7 @@ class SiteIndex extends React.Component {
         pageLinks.push(
                     <div className="blog-post">
                       <time dateTime={moment(datePublished).format('MMMM D, YYYY')}>
-                        { moment(datePublished).format('MMMM YYYY') }
+                        { moment(datePublished).format('MMMM D, YYYY') }
                       </time>
                       <span style={{ padding: '5px' }} />
                       <span className="blog-category">{ category }</span>
@@ -41,9 +43,10 @@ class SiteIndex extends React.Component {
     return (
             <DocumentTitle title={config.siteTitle}>
               <div>
-                <div className="content">
-                  <div className="main">
-                    <div className="main-inner">
+              <NavBar />
+                <div className="blogMenu-content">
+                  <div className="blogMenu-main">
+                    <div className="blogMenu-main-inner">
                       { pageLinks }
                     </div>
                   </div>

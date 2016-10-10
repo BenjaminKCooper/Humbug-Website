@@ -6,6 +6,8 @@ import DocumentTitle from 'react-document-title'
 import access from 'safe-access'
 import { config } from 'config'
 import './style.css'
+import NavBar from '../../components/NavBar'
+
 
 class SitePage extends React.Component {
   render () {
@@ -14,6 +16,7 @@ class SitePage extends React.Component {
 
     return (
             <div>
+            <NavBar />
               <div className="content">
                 <div className="main">
                   <div className="main-inner">

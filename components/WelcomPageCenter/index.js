@@ -16,12 +16,11 @@ class WelcomePageCenter extends Component {
       <div id="center">
         <h1>Welcome. What about me would you like to learn?</h1>
         <div id="center-main">
-          <div id="center-sub-a">
-            My Research
-            <Link to={prefixLink('/researchHomePage/')}>
-            test
-            </Link>
-          </div>
+          <Link to={prefixLink('/researchHomePage/')} >
+            <div id="center-sub-a">
+              My Research
+            </div>
+          </Link>
           <div id="center-sub-b">
             My Work
           </div>
@@ -35,6 +34,5 @@ class WelcomePageCenter extends Component {
   }
 }
 
-// http://res.cloudinary.com/dartpark/video/upload/v1473823246/Animation_Submission_rcfjnp.mp4
 
 export default WelcomePageCenter

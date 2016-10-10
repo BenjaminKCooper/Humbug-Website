@@ -1,46 +1,21 @@
-# Lumen
+# BenjaminCooper.me
 
-Gatsby starter for creating a blog
 
-## Features
-+ Inline CSS.
-+ Clean and extensible code.
-+ Six simple components: SiteSidebar, SiteNav, SiteLinks, SitePost, SitePage, ReadNext.
-+ [peterramsing/lost](https://github.com/peterramsing/lost) as a base for Grid.
-+ [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg) as a base for Typography.
+## Awesome resources/ tutorials/ sample code used to make my website:
 
-## Installing
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new lumen https://github.com/wpioneer/gatsby-starter-lumen`
-
-## Running in development
-`gatsby develop`
-
-![](http://i.imgur.com/422y5GV.png)
-
-## Ports
-
-[Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
-
-## License
-The MIT license.
-
-Copyright (c) 2016 Alexandr Shelepenok [ashk.io](http://ashk.io)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+* http://imakewebthings.com/waypoints/
+* http://tympanus.net/codrops/2013/07/16/on-scroll-header-effects/
+* http://www.w3schools.com/html/html5_semantic_elements.asp
+* http://mojs.io/
+* http://tympanus.net/codrops/2014/08/05/page-preloading-effect/
+* http://ianlunn.github.io/Hover/
+* https://github.com/IanLunn/Hover
+* http://tympanus.net/codrops/2013/06/13/creative-button-styles/
+* https://github.com/jessie-anderson/dartpark
+* http://tympanus.net/codrops/2016/06/15/interactive-record-player/
+* http://tympanus.net/Development/IsometricGrids/
+  * https://github.com/codrops/IsometricGrids/
+* http://tympanus.net/codrops/2016/02/23/icon-animations-powered-by-mo-js/
+  * https://github.com/codrops/Animocons/
+* http://tympanus.net/codrops/2016/04/13/interactive-3d-mall-map/
+  * https://github.com/codrops/Interactive3DMallMap/

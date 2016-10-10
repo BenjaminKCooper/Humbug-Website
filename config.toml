@@ -1,11 +1,11 @@
-siteTitle = "Blog by John Doe"
-siteDescr = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-siteAuthor = "John Doe"
+siteTitle = "Benjamin Cooper | Work, Research, and Me"
+siteDescr = ""
+siteAuthor = "Benjamin Cooper"
 
 siteTelegramUrl = "#"
 siteTwitterUrl = "#"
-siteGithubUrl = "#"
-siteEmailUrl = "#"
+siteGithubUrl = "https://github.com/BenjaminKCooper"
+siteEmailUrl = "benjamin.k.cooper.18@dartmouth.edu"
 siteRssUrl = "#"
 siteVkUrl = "#"
 
