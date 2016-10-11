@@ -14,18 +14,12 @@ class WelcomePageCenter extends Component {
   render () {
     return (
       <div id="center">
-        <h1>Welcome. What about me would you like to learn?</h1>
+        <div id="center-title">Welcome. What about me would you like to learn?</div>
         <div id="center-main">
-          <Link to={prefixLink('/researchHomePage/')} >
-            <div id="center-sub-a">
-              My Research
-            </div>
-          </Link>
-          <div id="center-sub-b">
-            My Work
-          </div>
-          <div id="center-sub-c">
-            My Life
+          <div id="center-sub">
+            <div id="center-sub-component"><Link to={prefixLink('/researchHomePage/')}>My Research</Link></div>
+            <div id="center-sub-component">My Work</div>
+            <div id="center-sub-component">My Life</div>
           </div>
         </div>
       </div>

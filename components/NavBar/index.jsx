@@ -14,8 +14,8 @@ class NavBar extends Component {
   render () {
     return (
       <div id="navBar">
-        <Link to={prefixLink('/')}><div className="navBar-item">Home</div></Link>
-        <Link to={prefixLink('/ContactMe/')}><div className="navBar-item">Contact Me</div></Link>
+        <Link to={prefixLink('/')}><div className="navBar-item">| Home |</div></Link>
+        <Link to={prefixLink('/contactMe/')}><div className="navBar-item">| Contact Me |</div></Link>
       </div>
 
     )
